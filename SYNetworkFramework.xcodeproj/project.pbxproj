@@ -43,9 +43,8 @@
 		331CD3EA1E9F522F00BFC184 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 331CD3C91E9F522F00BFC184 /* UIWebView+AFNetworking.m */; };
 		331CD3F31E9F535800BFC184 /* SYHTTPCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 331CD3EB1E9F535800BFC184 /* SYHTTPCache.h */; };
 		331CD3F41E9F535800BFC184 /* SYHTTPCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 331CD3EC1E9F535800BFC184 /* SYHTTPCache.m */; };
-		331CD3F51E9F535800BFC184 /* SYHTTPManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 331CD3ED1E9F535800BFC184 /* SYHTTPManager.h */; };
+		331CD3F51E9F535800BFC184 /* SYHTTPManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 331CD3ED1E9F535800BFC184 /* SYHTTPManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		331CD3F61E9F535800BFC184 /* SYHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 331CD3EE1E9F535800BFC184 /* SYHTTPManager.m */; };
-		331CD3F71E9F535800BFC184 /* SYNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 331CD3EF1E9F535800BFC184 /* SYNetwork.h */; };
 		331CD3F81E9F535800BFC184 /* SYRequestProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 331CD3F01E9F535800BFC184 /* SYRequestProtocol.h */; };
 		331CD3F91E9F535800BFC184 /* SYResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 331CD3F11E9F535800BFC184 /* SYResponse.h */; };
 		331CD3FA1E9F535800BFC184 /* SYResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 331CD3F21E9F535800BFC184 /* SYResponse.m */; };
@@ -92,7 +91,6 @@
 		331CD3EC1E9F535800BFC184 /* SYHTTPCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYHTTPCache.m; sourceTree = "<group>"; };
 		331CD3ED1E9F535800BFC184 /* SYHTTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYHTTPManager.h; sourceTree = "<group>"; };
 		331CD3EE1E9F535800BFC184 /* SYHTTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYHTTPManager.m; sourceTree = "<group>"; };
-		331CD3EF1E9F535800BFC184 /* SYNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYNetwork.h; sourceTree = "<group>"; };
 		331CD3F01E9F535800BFC184 /* SYRequestProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYRequestProtocol.h; sourceTree = "<group>"; };
 		331CD3F11E9F535800BFC184 /* SYResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYResponse.h; sourceTree = "<group>"; };
 		331CD3F21E9F535800BFC184 /* SYResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYResponse.m; sourceTree = "<group>"; };
@@ -134,7 +132,6 @@
 				331CD3EC1E9F535800BFC184 /* SYHTTPCache.m */,
 				331CD3ED1E9F535800BFC184 /* SYHTTPManager.h */,
 				331CD3EE1E9F535800BFC184 /* SYHTTPManager.m */,
-				331CD3EF1E9F535800BFC184 /* SYNetwork.h */,
 				331CD3F01E9F535800BFC184 /* SYRequestProtocol.h */,
 				331CD3F11E9F535800BFC184 /* SYResponse.h */,
 				331CD3F21E9F535800BFC184 /* SYResponse.m */,
@@ -207,15 +204,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				331CD3D71E9F522F00BFC184 /* AFAutoPurgingImageCache.h in Headers */,
+				331CD3F51E9F535800BFC184 /* SYHTTPManager.h in Headers */,
 				331CD3E11E9F522F00BFC184 /* UIImage+AFNetworking.h in Headers */,
 				331CD3D11E9F522F00BFC184 /* AFURLRequestSerialization.h in Headers */,
-				331CD3F51E9F535800BFC184 /* SYHTTPManager.h in Headers */,
 				331CD3D91E9F522F00BFC184 /* AFImageDownloader.h in Headers */,
 				331CD3DB1E9F522F00BFC184 /* AFNetworkActivityIndicatorManager.h in Headers */,
 				331CD3CA1E9F522F00BFC184 /* AFHTTPSessionManager.h in Headers */,
 				331CD3E21E9F522F00BFC184 /* UIImageView+AFNetworking.h in Headers */,
 				331CD3DD1E9F522F00BFC184 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
-				331CD3F71E9F535800BFC184 /* SYNetwork.h in Headers */,
 				331CD3CF1E9F522F00BFC184 /* AFSecurityPolicy.h in Headers */,
 				331CD3CD1E9F522F00BFC184 /* AFNetworkReachabilityManager.h in Headers */,
 				331CD3E41E9F522F00BFC184 /* UIKit+AFNetworking.h in Headers */,

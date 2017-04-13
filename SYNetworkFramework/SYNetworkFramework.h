@@ -17,3 +17,6 @@ FOUNDATION_EXPORT const unsigned char SYNetworkFrameworkVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <SYNetworkFramework/PublicHeader.h>
 
 
+#import <SYNetworkFramework/SYHTTPManager.h>
+#import <SYNetworkFramework/SYRequestProtocol.h>
+#import <SYNetworkFramework/SYResponse.h>
