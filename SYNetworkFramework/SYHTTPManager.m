@@ -53,8 +53,6 @@
         return nil;
     }
     
-    if (request.showStatusBarIndicator) { self.currentRequestCount ++;}
-    
     NSMutableURLRequest *mutableRequest = request.urlRequest.mutableCopy;
     if (!request.urlRequest) {
         NSString *typeString = @"";
@@ -75,11 +73,12 @@
         mutableRequest.timeoutInterval = request.timeoutInterval;
     }
     
-    
+    if (request.showStatusBarIndicator) { self.currentRequestCount ++;}
     NSURLSessionDataTask *dataTask = [self.sessionManager dataTaskWithRequest:mutableRequest
                                                             completionHandler:^
                                       (NSURLResponse *response, id responseObject, NSError * error) {
-                                          
+                                          if (request.showStatusBarIndicator) { self.currentRequestCount --;}
+
                                           if (error) {
                                               if (failure) {
                                                   failure(error.localizedDescription);
