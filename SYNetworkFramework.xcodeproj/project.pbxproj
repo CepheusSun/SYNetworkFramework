@@ -41,6 +41,14 @@
 		331CD3E81E9F522F00BFC184 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 331CD3C71E9F522F00BFC184 /* UIRefreshControl+AFNetworking.m */; };
 		331CD3E91E9F522F00BFC184 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 331CD3C81E9F522F00BFC184 /* UIWebView+AFNetworking.h */; };
 		331CD3EA1E9F522F00BFC184 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 331CD3C91E9F522F00BFC184 /* UIWebView+AFNetworking.m */; };
+		331CD3F31E9F535800BFC184 /* SYHTTPCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 331CD3EB1E9F535800BFC184 /* SYHTTPCache.h */; };
+		331CD3F41E9F535800BFC184 /* SYHTTPCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 331CD3EC1E9F535800BFC184 /* SYHTTPCache.m */; };
+		331CD3F51E9F535800BFC184 /* SYHTTPManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 331CD3ED1E9F535800BFC184 /* SYHTTPManager.h */; };
+		331CD3F61E9F535800BFC184 /* SYHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 331CD3EE1E9F535800BFC184 /* SYHTTPManager.m */; };
+		331CD3F71E9F535800BFC184 /* SYNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 331CD3EF1E9F535800BFC184 /* SYNetwork.h */; };
+		331CD3F81E9F535800BFC184 /* SYRequestProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 331CD3F01E9F535800BFC184 /* SYRequestProtocol.h */; };
+		331CD3F91E9F535800BFC184 /* SYResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 331CD3F11E9F535800BFC184 /* SYResponse.h */; };
+		331CD3FA1E9F535800BFC184 /* SYResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 331CD3F21E9F535800BFC184 /* SYResponse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +88,14 @@
 		331CD3C71E9F522F00BFC184 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		331CD3C81E9F522F00BFC184 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		331CD3C91E9F522F00BFC184 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		331CD3EB1E9F535800BFC184 /* SYHTTPCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYHTTPCache.h; sourceTree = "<group>"; };
+		331CD3EC1E9F535800BFC184 /* SYHTTPCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYHTTPCache.m; sourceTree = "<group>"; };
+		331CD3ED1E9F535800BFC184 /* SYHTTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYHTTPManager.h; sourceTree = "<group>"; };
+		331CD3EE1E9F535800BFC184 /* SYHTTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYHTTPManager.m; sourceTree = "<group>"; };
+		331CD3EF1E9F535800BFC184 /* SYNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYNetwork.h; sourceTree = "<group>"; };
+		331CD3F01E9F535800BFC184 /* SYRequestProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYRequestProtocol.h; sourceTree = "<group>"; };
+		331CD3F11E9F535800BFC184 /* SYResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYResponse.h; sourceTree = "<group>"; };
+		331CD3F21E9F535800BFC184 /* SYResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYResponse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +130,14 @@
 			children = (
 				331CD3A61E9F522F00BFC184 /* AFNetworking */,
 				331CD39E1E9F519C00BFC184 /* SYNetworkFramework.h */,
+				331CD3EB1E9F535800BFC184 /* SYHTTPCache.h */,
+				331CD3EC1E9F535800BFC184 /* SYHTTPCache.m */,
+				331CD3ED1E9F535800BFC184 /* SYHTTPManager.h */,
+				331CD3EE1E9F535800BFC184 /* SYHTTPManager.m */,
+				331CD3EF1E9F535800BFC184 /* SYNetwork.h */,
+				331CD3F01E9F535800BFC184 /* SYRequestProtocol.h */,
+				331CD3F11E9F535800BFC184 /* SYResponse.h */,
+				331CD3F21E9F535800BFC184 /* SYResponse.m */,
 				331CD39F1E9F519C00BFC184 /* Info.plist */,
 			);
 			path = SYNetworkFramework;
@@ -185,20 +209,25 @@
 				331CD3D71E9F522F00BFC184 /* AFAutoPurgingImageCache.h in Headers */,
 				331CD3E11E9F522F00BFC184 /* UIImage+AFNetworking.h in Headers */,
 				331CD3D11E9F522F00BFC184 /* AFURLRequestSerialization.h in Headers */,
+				331CD3F51E9F535800BFC184 /* SYHTTPManager.h in Headers */,
 				331CD3D91E9F522F00BFC184 /* AFImageDownloader.h in Headers */,
 				331CD3DB1E9F522F00BFC184 /* AFNetworkActivityIndicatorManager.h in Headers */,
 				331CD3CA1E9F522F00BFC184 /* AFHTTPSessionManager.h in Headers */,
 				331CD3E21E9F522F00BFC184 /* UIImageView+AFNetworking.h in Headers */,
 				331CD3DD1E9F522F00BFC184 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				331CD3F71E9F535800BFC184 /* SYNetwork.h in Headers */,
 				331CD3CF1E9F522F00BFC184 /* AFSecurityPolicy.h in Headers */,
 				331CD3CD1E9F522F00BFC184 /* AFNetworkReachabilityManager.h in Headers */,
 				331CD3E41E9F522F00BFC184 /* UIKit+AFNetworking.h in Headers */,
+				331CD3F31E9F535800BFC184 /* SYHTTPCache.h in Headers */,
 				331CD3D51E9F522F00BFC184 /* AFURLSessionManager.h in Headers */,
 				331CD3D31E9F522F00BFC184 /* AFURLResponseSerialization.h in Headers */,
 				331CD3E91E9F522F00BFC184 /* UIWebView+AFNetworking.h in Headers */,
 				331CD3E51E9F522F00BFC184 /* UIProgressView+AFNetworking.h in Headers */,
 				331CD3DF1E9F522F00BFC184 /* UIButton+AFNetworking.h in Headers */,
+				331CD3F81E9F535800BFC184 /* SYRequestProtocol.h in Headers */,
 				331CD3A01E9F519C00BFC184 /* SYNetworkFramework.h in Headers */,
+				331CD3F91E9F535800BFC184 /* SYResponse.h in Headers */,
 				331CD3CC1E9F522F00BFC184 /* AFNetworking.h in Headers */,
 				331CD3E71E9F522F00BFC184 /* UIRefreshControl+AFNetworking.h in Headers */,
 			);
@@ -277,15 +306,18 @@
 				331CD3D01E9F522F00BFC184 /* AFSecurityPolicy.m in Sources */,
 				331CD3EA1E9F522F00BFC184 /* UIWebView+AFNetworking.m in Sources */,
 				331CD3CB1E9F522F00BFC184 /* AFHTTPSessionManager.m in Sources */,
+				331CD3FA1E9F535800BFC184 /* SYResponse.m in Sources */,
 				331CD3D61E9F522F00BFC184 /* AFURLSessionManager.m in Sources */,
 				331CD3D21E9F522F00BFC184 /* AFURLRequestSerialization.m in Sources */,
 				331CD3E01E9F522F00BFC184 /* UIButton+AFNetworking.m in Sources */,
 				331CD3D81E9F522F00BFC184 /* AFAutoPurgingImageCache.m in Sources */,
+				331CD3F41E9F535800BFC184 /* SYHTTPCache.m in Sources */,
 				331CD3E31E9F522F00BFC184 /* UIImageView+AFNetworking.m in Sources */,
 				331CD3E81E9F522F00BFC184 /* UIRefreshControl+AFNetworking.m in Sources */,
 				331CD3DE1E9F522F00BFC184 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				331CD3D41E9F522F00BFC184 /* AFURLResponseSerialization.m in Sources */,
 				331CD3DA1E9F522F00BFC184 /* AFImageDownloader.m in Sources */,
+				331CD3F61E9F535800BFC184 /* SYHTTPManager.m in Sources */,
 				331CD3DC1E9F522F00BFC184 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				331CD3E61E9F522F00BFC184 /* UIProgressView+AFNetworking.m in Sources */,
 			);
